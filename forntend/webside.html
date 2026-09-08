@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>complete Responsive Personal portfolio Website using HTML CSS & javascript </title>
+    <!-- box icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- header -->
+    <header class="active">
+        <a href="#" class="logo">shashi.</a>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav>
+            <a href="#" class="active">Home</a>
+            <a href="#">Services</a>
+            <a href="#">Resume</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <!-- bars background -->
+    <div class="bars-box active">
+        <div class="bar" style="--i:6;"></div>
+        <div class="bar" style="--i:5;"></div>
+        <div class="bar" style="--i:4;"></div>
+        <div class="bar" style="--i:3;"></div>
+        <div class="bar" style="--i:2;"></div>
+        <div class="bar" style="--i:1;"></div>
+    </div>
+
+    <!-- home selection -->
+    <section class="home active">
+        <div class="home-detail">
+            <h1>Shashi vishwakarma</h1>
+            <h2>i"m a
+                <span style="--i:4;" data-text="Coder">Coder</span>
+                <span style="--i:3;" data-text="Frontend developer">Frontend developer</span>
+                <span style="--i:2;" data-text="Blogger">Blogger</span>
+                <span style="--i:1;" data-text="Designer">Designer</span>
+            </h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, quia suscipit eius tempore sint vel
+                laborum iste perferendis doloribus praesentium repellat temporibus dicta accusantium numquam libero.
+                Nisi voluptates consequatur voluptatibus.</p>
+            <div class="btn-sci">
+                <a href="#" class="btn">Download CV</a>
+                <div class="sci">
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-discord"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="picture/flower_img3.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- services section -->
+    <section class="services">
+        <h2 class="heading">my<span>services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <div class="icon">
+                    <i class="fa-solid fa-code"></i>
+                    <a href="#"><i class="fa-solid fa-arrow-left"></i></a>
+                </div>
+                <h3> web developement</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. architecto assumenda suscipit, accusamus
+                    consectetur reiciendis!</p>
+            </div>
+            <div class="services-box">
+                <div class="icon">
+                    <i class="fa-solid fa-pen-fancy"></i>
+                    <a href="#"><i class="fa-solid fa-arrow-left"></i></a>
+                </div>
+                <h3> UI/UX Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. architecto assumenda suscipit, accusamus
+                    consectetur reiciendis!</p>
+            </div>
+            <div class="services-box">
+                <div class="icon">
+                    <i class="fa-solid fa-palette"></i>
+                    <a href="#"><i class="fa-solid fa-arrow-left"></i></a>
+                </div>
+                <h3> Graphic Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. architecto assumenda suscipit, accusamus
+                    consectetur reiciendis!</p>
+            </div>
+            <div class="services-box">
+                <div class="icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#"><i class="fa-solid fa-arrow-left"></i></a>
+                </div>
+                <h3> SEO</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. architecto assumenda suscipit, accusamus
+                    consectetur reiciendis!</p>
+            </div>
+            <div class="services-box">
+                <div class="icon">
+                    <i class="fa-solid fa-video"></i>
+                    <a href="#"><i class="fa-solid fa-arrow-left"></i></a>
+                </div>
+                <h3>Video Editing</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. architecto assumenda suscipit, accusamus
+                    consectetur reiciendis!</p>
+            </div>
+            <div class="services-box">
+                <div class="icon">
+                    <i class="fa-regular fa-camera"></i>
+                    <a href="#"><i class="fa-solid fa-arrow-left"></i></i></a>
+                </div>
+                <h3>Photography</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. architecto assumenda suscipit, accusamus
+                    consectetur reiciendis!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- resume section  -->
+    <section class="resume">
+        <div class="resume-container">
+            <div class="resume-box">
+                <h2>why hire me ?</h2>
+                <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis suscipit impedit
+                    officiis facilis fugiat dolorum.</p>
+                <button class="resume-btn active">Experience</button>
+                <button class="resume-btn">Education</button>
+                <button class="resume-btn">Skills</button>
+                <button class="resume-btn">About Me</button>
+            </div>
+
+            <div class="resume-box">
+                <!-- Experience -->
+                <div class="resume-detail experience active">
+                    <h2 class="heading">my<span>Experience</span></h2>
+                    <p class="desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam nihil libero illum
+                        dignissimos suscipit aspernatur tempora, delectus voluptatem tenetur possimus!</p>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <p class="year">2025 - present</p>
+                            <h3> frontend developer</h3>
+                            <p class="company">Abc corp.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores, odio.</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2025 - 2024</p>
+                            <h3> full stack developer</h3>
+                            <p class="company">xyz corp.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores, odio.</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2024 - 2023</p>
+                            <h3> Backend developer</h3>
+                            <p class="company">ABC inc.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores, odio.</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2023 - 2022</p>
+                            <h3> Backend developer</h3>
+                            <p class="company">Abc corp.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores, odio.</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2022 - 2021</p>
+                            <h3> frontend developer</h3>
+                            <p class="company">XYZ inc.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores, odio.</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2021 - 2020</p>
+                            <h3> frontend developer</h3>
+                            <p class="company">xyz inc.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores, odio.</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2020 - 20219</p>
+                            <h3> frontend developer</h3>
+                            <p class="company">xyz corp.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores, odio.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Education -->
+                <div class="resume-detail education">
+                    <h2 class="heading">my<span>Education</span></h2>
+                    <p class="desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam nihil libero illum
+                        dignissimos suscipit aspernatur tempora, delectus voluptatem tenetur possimus!</p>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <p class="year">2025</p>
+                            <h3>Preograming Course</h3>
+                            <p class="company">Online programing</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, vitae?</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2026</p>
+                            <h3>web Development bootcamp</h3>
+                            <p class="company">Online course platform</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, vitae?</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2024</p>
+                            <h3>Certified web development</h3>
+                            <p class="company">Development Training</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, vitae?</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2023</p>
+                            <h3>Bachelor of Engineering</h3>
+                            <p class="company">AKTU University</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, vitae?</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2022</p>
+                            <h3>Computer Science & Engineering</h3>
+                            <p class="company">Online programing</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, vitae?</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2022</p>
+                            <h3>jounier Engineering</h3>
+                            <p class="company">Online programing</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, vitae?</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2020</p>
+                            <h3>Full stack Developement</h3>
+                            <p class="company">Online programing</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, vitae?</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2020</p>
+                            <h3>Bachelor of Engineering programmer</h3>
+                            <p class="company">BTUP University</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, vitae?</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- skill -->
+                <div class="resume-detail skills">
+                    <h2 class="heading">my<span>Skills</span></h2>
+                    <p class="desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam nihil libero illum
+                        dignissimos suscipit aspernatur tempora, delectus voluptatem tenetur possimus!</p>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <i class="fa-brands fa-html5"></i>
+                            <span>HTML</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class="fa-brands fa-css3-alt"></i>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class="fa-brands fa-js"></i>
+                            <span>Javascript</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class="fa-brands fa-react"></i>
+                            <span>React.js</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class="fa-brands fa-node-js"></i>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class="fa-brands fa-java"></i>
+                            <span>java</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class="fa-brands fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class="fa-solid fa-database"></i>
+                            <span>MySQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- About -->
+                <div class="resume-detail about">
+                    <h2 class="heading">About<span>Me</span></h2>
+                    <p class="desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam nihil libero illum
+                        dignissimos suscipit aspernatur tempora, delectus voluptatem tenetur possimus!</p>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <p>Name<span>shashi vishwakarma</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Gender<span>Female</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Age<span>23 year old</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Status<span>Unmarried</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>City<span>Uttar pradesh</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Nationality<span>Indian</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Experience<span>frasher</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>phone<span>(+91)927 802 9875</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Email<span>shashivish838@gmail.com</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Language<span>English, Hindi</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section -->
+    <section class="portfolio">
+        <h2 class="heading">Latest<span>Project</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <div class="portfolio-detail active">
+                    <p class="numb">01</p>
+                    <h3>Frontend Project</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas possimus nobis exercitationem atque
+                        quo minima.</p>
+                    <div class="tech">
+                        <p>HTML, CSS5, Javascript</p>
+                    </div>
+                    <div class="live-github">
+                        <a href="#"><i class="fa-solid fa-arrow-left"></i><span>Live Project</span></a>
+                        <a href="#"><i class="fa-brands fa-github"></i><span>Github Repository</span></a>
+                    </div>
+                </div>
+                <div class="portfolio-detail">
+                    <p class="numb">02</p>
+                    <h3>Full stack Project</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas possimus nobis exercitationem atque
+                        quo minima.</p>
+                    <div class="tech">
+                        <p>MongoDB, Express.js, React.js, Node.js</p>
+                    </div>
+                    <div class="live-github">
+                        <a href="#"><i class="fa-solid fa-arrow-left"></i><span>Live Project</span></a>
+                        <a href="#"><i class="fa-brands fa-github"></i><span>Github Repository</span></a>
+                    </div>
+                </div>
+                <div class="portfolio-detail">
+                    <p class="numb">03</p>
+                    <h3>Frontend Project</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas possimus nobis exercitationem atque
+                        quo minima.</p>
+                    <div class="tech">
+                        <p>React, CSS5, Javascript</p>
+                    </div>
+                    <div class="live-github">
+                        <a href="#"><i class="fa-solid fa-arrow-left"></i><span>Live Project</span></a>
+                        <a href="#"><i class="fa-brands fa-github"></i><span>Github Repository</span></a>
+                    </div>
+                </div>
+                <div class="portfolio-detail">
+                    <p class="numb">04</p>
+                    <h3>Full stack Project</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas possimus nobis exercitationem atque
+                        quo minima.</p>
+                    <div class="tech">
+                        <p>MongoDB, Express.js, Angular.js</p>
+                    </div>
+                    <div class="live-github">
+                        <a href="#"><i class="fa-solid fa-arrow-left"></i><span>Live Project</span></a>
+                        <a href="#"><i class="fa-brands fa-github"></i><span>Github Repository</span></a>
+                    </div>
+                </div>
+                <div class="portfolio-detail">
+                    <p class="numb">05</p>
+                    <h3>Full stack Project</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas possimus nobis exercitationem atque
+                        quo minima.</p>
+                    <div class="tech">
+                        <p>HTML, Express.js, CSS5, Javascript</p>
+                    </div>
+                    <div class="live-github">
+                        <a href="#"><i class="fa-solid fa-arrow-left"></i><span>Live Project</span></a>
+                        <a href="#"><i class="fa-brands fa-github"></i><span>Github Repository</span></a>
+                    </div>
+                </div>
+                <div class="portfolio-detail">
+                    <p class="numb">06</p>
+                    <h3>Full stack Project</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas possimus nobis exercitationem atque
+                        quo minima.</p>
+                    <div class="tech">
+                        <p>HTML, Github, Javascript</p>
+                    </div>
+                    <div class="live-github">
+                        <a href="#"><i class="fa-solid fa-arrow-left"></i><span>Live Project</span></a>
+                        <a href="#"><i class="fa-brands fa-github"></i><span>Github Repository</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <!-- images carousal -->
+                <div class="portfolio-carousal">
+                    <div class="img-slide">
+                        <div class="img-item">
+                            <img src="picture/file_0000000018e0720baeff1d27f13a99d9.png">
+                        </div>
+                        <div class="img-item">
+                            <img src="picture/file_000000007da4720b983f2ace32c2bdb5.png">
+                        </div>
+                        <div class="img-item">
+                            <img src="picture/file_00000000889c720bb483b0d60d78a0ac.png">
+                        </div>
+                        <div class="img-item">
+                            <img src="picture/file_00000000c36c720bbfed91132912c0e9.png">
+                        </div>
+                        <div class="img-item">
+                            <img src="picture/file_00000000cee0720b8809c3fffab59b31.png">
+                        </div>
+                        <div class="img-item">
+                            <img src="picture/file_00000000e788720b83dc4ee690ad6d00.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="navigation">
+                    <button class="arrow-left disabled"><i class="fa-solid fa-chevron-left"></i></button>
+                    <button class="arrow-right"><i class="fa-solid fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact Section -->
+    <section class="contact">
+        <div class="contact-container">
+            <div class="contact-box">
+                <h2>Let's Work together</h2>
+                <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste molestiae dignissimos
+                    natus aliquid? Architecto, quidem?</p>
+                <div class="contact-detail">
+                    <i class="fa-solid fa-phone"></i>
+                    <div class="detail">
+                        <p>Phone</p>
+                        <p>(+91) 927 802 9875</p>
+                    </div>
+                </div>
+                <div class="contact-detail">
+                    <i class="fa-solid fa-envelope"></i>
+                    <div class="detail">
+                        <p>Email</p>
+                        <p>shashivish2344@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact-detail">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <div class="detail">
+                        <p>Address</p>
+                        <p>123 Anywhere Street, Any city</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-box">
+                <form id="contactForm">
+
+                    <h2 class="heading">Contact<span>Me!</span></h2>
+
+                    <div class="field-box">
+
+                        <input type="text" id="name" placeholder="Full name" required>
+
+                        <input type="email" id="email" placeholder="Email Address" required>
+
+                        <input type="text" id="phone" placeholder="Phone number" required>
+
+                        <input type="text" id="subject" placeholder="Email subject" required>
+
+                        <textarea id="message" placeholder="your message" required></textarea>
+
+                    </div>
+
+                    <button type="submit" class="btn">Send Message</button>
+
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- custom js -->
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
